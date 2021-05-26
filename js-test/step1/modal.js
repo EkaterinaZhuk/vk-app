@@ -25,7 +25,7 @@ export default {
     });
   }, // Метод вызвает удаленный метод из VK //
   getUser(params = {}) {
-    return this.callApi("users.get, params");
+    return this.callApi("users.get", params);
   }, // Метод  //
 };
 
