@@ -1,5 +1,5 @@
 function getDateFromBirthday(bday) {
-  if (!Bday) {
+  if (!bday) {
     return null;
   }
 
