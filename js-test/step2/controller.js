@@ -1,4 +1,4 @@
-import Model from "./model.js";
+import Model from "./modal.js";
 
 export default {
   async friendsRoute(params) {

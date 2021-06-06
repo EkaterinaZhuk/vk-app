@@ -1,4 +1,4 @@
-import Model from "./model.js";
+import Model from "./modal.js";
 import friendsPage from "./pages/friends.js";
 import friendPage from "./pages/friend.js";
 import newsPage from "./pages/news.js";
