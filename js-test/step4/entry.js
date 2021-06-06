@@ -13,7 +13,7 @@ Handlebars.registerHelper("formatBDay", (bday) => {
 
   return [day, months[month - 1]].join(" ");
 });
-Handlebars.registerHelper("formatdate", (ts) => {
+Handlebars.registerHelper("formatDate", (ts) => {
   return new Date(ts * 1000).toLocaleString();
 });
 
