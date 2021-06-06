@@ -9,7 +9,6 @@ function getRouteInfo() {
 
 function handleHash() {
   const { name, params } = getRouteInfo();
-
   if (name) {
     const routeName = name + "Route";
     Controller[routeName](params);
@@ -18,7 +17,7 @@ function handleHash() {
 
 export default {
   init() {
-    addEventListener(hashChange, handleHash);
+    addEventListener("hashChange", handleHash);
     handleHash();
   },
 };
