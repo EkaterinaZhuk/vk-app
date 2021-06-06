@@ -18,7 +18,7 @@ function handleHash() {
 
 export default {
   init() {
-    addEventListener(hashChange, handleHash);
+    addEventListener("hashChange", handleHash);
     handleHash();
   },
 };
