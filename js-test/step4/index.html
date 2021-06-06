@@ -43,6 +43,10 @@
 
 	<script id="friendsTemplate" type="text/template">
 	<div>
+			<select dsta-roole='sort'>
+				<option value='name'>По имени</option>
+				<option value="bday">По дню рождения</option>
+			</select>
 		<div class="flex-container">
 			{{#each list}}
 			<div class="friend text-center">
@@ -57,11 +61,6 @@
 
 	<script id="friendTemplate" type="text/template">
 	<div>
-
-
-
-
-		
 		<img src="{{ photo_100 }}" class="img-circle">
 		<div>{{ first_name }} {{ last_name }}</div>
 		<div>{{ country.title }} {{ city.title }}</div>
